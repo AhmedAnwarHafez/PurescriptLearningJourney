@@ -1,0 +1,1 @@
+This repo documents my attempts to learn Purescript from different source materials.

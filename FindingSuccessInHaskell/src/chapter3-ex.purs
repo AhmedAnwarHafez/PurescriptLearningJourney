@@ -26,5 +26,6 @@ validatePassword password =
                         Nothing -> Nothing
                         Just _ -> Just cleaned
 
-
+-- Q: What does requireAlphaNum "" return?
+-- A: The function returns (Just ""), because an empty string is not a special character.
 
